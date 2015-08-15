@@ -13,11 +13,19 @@ MP3   KEYWORD1
 #######################################
 
 playSong        KEYWORD2
-next            KEYWORD2
-prev            KEYWORD2
 pausePlay       KEYWORD2
 stop            KEYWORD2
+next            KEYWORD2
+prev            KEYWORD2
+setVolume				KEYWORD2
 pushSong        KEYWORD2
+setMode         KEYWORD2
+
+setDate         KEYWORD2
+setTime         KEYWORD2
+setAlarm        KEYWORD2
+clrAlarm        KEYWORD2
+
 getStatus       KEYWORD2
 getDate         KEYWORD2
 getTime         KEYWORD2

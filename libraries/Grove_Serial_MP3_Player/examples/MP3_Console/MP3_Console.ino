@@ -11,9 +11,9 @@
 #include "MP3.h"
 
 #if !defined(__MSP430_CPU__)
-SoftwareSerial mp3Serial(2, 3); // RX, TX
+  SoftwareSerial mp3Serial(2, 3); // RX, TX
 #else
-SoftwareSerial mp3Serial(P1_4, P1_5); // RX, TX
+  SoftwareSerial mp3Serial(P1_4, P1_5); // RX, TX
 #endif
 
 MP3 player(mp3Serial);
@@ -42,7 +42,7 @@ void loop() {
       case 'p':
         player.pausePlay();
         break;
-      case 'p':
+      case 's':
         player.stop();
         break;
       case ']':

@@ -105,7 +105,7 @@ void MP3::pushSong(uint16_t no)  {
 }
 
 void MP3::pausePlay()  {
-  op(OP_PAUSE);
+  op(OP_PAUSE_PLAY);
 }
 
 void MP3::stop()  {
@@ -122,6 +122,26 @@ void MP3::prev()  {
 
 void MP3::setVolume(uint8_t vol)  {
   op1(OP_SET_VOLUME, vol);
+}
+
+void MP3::setMode(uint8_t mode)  {
+  op1(OP_SET_MODE, mode);
+}
+
+void MP3::setDate(uint16_t year, uint8_t month, uint8_t date)  {
+  op4(OP_SET_DATE, year >> 8, year & 0xFF, month, date);
+}
+
+void MP3::setTime(uint8_t hour, uint8_t minute, uint8_t second)  {
+  op3(OP_SET_TIME, hour, minute, second);
+}
+
+void MP3::setAlarm(uint8_t hour, uint8_t minute, uint8_t second)  {
+  op3(OP_SET_ALARM, hour, minute, second);	
+}
+
+void MP3::clrAlarm()  {
+  op(OP_CLR_ALARM);
 }
 
 void MP3::getStatus()  {
