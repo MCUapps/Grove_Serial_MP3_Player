@@ -1,5 +1,5 @@
-Garan-Arduino
-=============
+Grove_Serial_MP3_Player
+=======================
 
 This is my unofficial library and exmaple code to drive [Grove - Serial MP3 Player](http://www.seeedstudio.com/depot/Grove-Serial-MP3-Player-p-1542.html).
 
