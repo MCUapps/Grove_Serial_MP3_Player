@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map for Garan
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MP3   KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+playSong        KEYWORD2
+next            KEYWORD2
+prev            KEYWORD2
+pausePlay       KEYWORD2
+stop            KEYWORD2
+pushSong        KEYWORD2
+getStatus       KEYWORD2
+getDate         KEYWORD2
+getTime         KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
