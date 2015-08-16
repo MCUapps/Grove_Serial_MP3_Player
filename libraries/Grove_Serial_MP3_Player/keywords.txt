@@ -30,7 +30,7 @@ clrAlarm        KEYWORD2
 getVolume       KEYWORD2
 getStatus       KEYWORD2
 getSongs        KEYWORD2
-getCurrentNo    KEYWORD2
+currentNo       KEYWORD2
 getCFStr        KEYWORD2
 
 getDate         KEYWORD2

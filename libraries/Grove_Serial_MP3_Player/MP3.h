@@ -40,7 +40,7 @@ class MP3
         void getVolume();
         void getStatus();
         void getSongs();
-        void getCurrentNo();
+        void currentNo();
         void getCFStr();
 
         void getDate();

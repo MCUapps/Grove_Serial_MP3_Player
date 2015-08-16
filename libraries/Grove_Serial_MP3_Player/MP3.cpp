@@ -178,12 +178,12 @@ void MP3::getSongs()
     op(OP_GET_SONGS);
 }
 
-void getCurrentNo()
+void MP3::currentNo()
 {
-    op(OP_GET_CURRENT_NO);
+    op(OP_CURRENT_NO);
 }
 
-void getCFStr()
+void MP3::getCFStr()
 {
     op(OP_GET_CF_STR);
 }
