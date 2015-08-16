@@ -1,23 +1,24 @@
-#######################################
-# Syntax Coloring Map for Garan
-#######################################
+########################################
+# Syntax Coloring Map for Grove Serial MP3 Player
+########################################
 
-#######################################
+
+########################################
 # Datatypes (KEYWORD1)
-#######################################
+########################################
 
 MP3   KEYWORD1
 
-#######################################
+########################################
 # Methods and Functions (KEYWORD2)
-#######################################
+########################################
 
 playSong        KEYWORD2
 pausePlay       KEYWORD2
 stop            KEYWORD2
 next            KEYWORD2
 prev            KEYWORD2
-setVolume				KEYWORD2
+setVolume       KEYWORD2
 pushSong        KEYWORD2
 setMode         KEYWORD2
 
@@ -26,10 +27,15 @@ setTime         KEYWORD2
 setAlarm        KEYWORD2
 clrAlarm        KEYWORD2
 
+getVolume       KEYWORD2
 getStatus       KEYWORD2
+getSongs        KEYWORD2
+getCurrentNo    KEYWORD2
+getCFStr        KEYWORD2
+
 getDate         KEYWORD2
 getTime         KEYWORD2
 
-#######################################
+########################################
 # Constants (LITERAL1)
-#######################################
+########################################
